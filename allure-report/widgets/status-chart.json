@@ -1,0 +1,1 @@
+[{"uid":"ef06f7f49d76c5dd","name":"My fisrt test","time":{"start":1688732552881,"stop":1688732559402,"duration":6521},"status":"passed","severity":"normal"},{"uid":"57e68ec4e711ea1b","name":"should login with valid credentials","time":{"start":1688725489430,"stop":1688725491297,"duration":1867},"status":"passed","severity":"normal"}]
