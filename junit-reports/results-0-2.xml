@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="checkbox" timestamp="2023-07-14T15:44:05" time="12.832" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="checkbox"/>
+      <property name="capabilities" value="chrome.114_0_5735_199.windows"/>
+      <property name="file" value="file:///C:/Users/AnnaEichmann/OneDrive%20-%20ASQA%20Software%20Quality%20Assurance/Desktop/WebDriverIO_Project_1/test/specs/checkbox.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_199.windows.checkbox" name="tests checkbox" time="12.83">
+      <system-out><![CDATA[
+COMMAND: POST /session/1a4c227c040244649b7fd22da0d9475a/window/rect - {"x":null,"y":null,"width":562,"height":969}
+RESULT: {"x":null,"y":null,"width":562,"height":969}
+COMMAND: POST /session/1a4c227c040244649b7fd22da0d9475a/url - {"url":"https://the-internet.herokuapp.com/"}
+RESULT: {"url":"https://the-internet.herokuapp.com/"}
+COMMAND: POST /session/1a4c227c040244649b7fd22da0d9475a/element - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Checkboxes\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Checkboxes\"]/@id)] | .//*[@aria-label = \"Checkboxes\"] | .//input[@id = (//label[normalize-space() = \"Checkboxes\"]/@for)] | .//input[@placeholder=\"Checkboxes\"] | .//textarea[@placeholder=\"Checkboxes\"] | .//input[@aria-placeholder=\"Checkboxes\"] | .//textarea[@aria-placeholder=\"Checkboxes\"] | .//*[@title=\"Checkboxes\"] | .//img[@alt=\"Checkboxes\"] | .//*[normalize-space(text()) = \"Checkboxes\"]"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Checkboxes\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Checkboxes\"]/@id)] | .//*[@aria-label = \"Checkboxes\"] | .//input[@id = (//label[normalize-space() = \"Checkboxes\"]/@for)] | .//input[@placeholder=\"Checkboxes\"] | .//textarea[@placeholder=\"Checkboxes\"] | .//input[@aria-placeholder=\"Checkboxes\"] | .//textarea[@aria-placeholder=\"Checkboxes\"] | .//*[@title=\"Checkboxes\"] | .//img[@alt=\"Checkboxes\"] | .//*[normalize-space(text()) = \"Checkboxes\"]"}
+COMMAND: POST /session/1a4c227c040244649b7fd22da0d9475a/element/B5EEBC10A301B2D9EF1245F7E2DA4900_element_3/click - {}
+RESULT: {}
+COMMAND: POST /session/1a4c227c040244649b7fd22da0d9475a/element - {"using":"xpath","value":"//form[@id='checkboxes']/input[1]"}
+RESULT: {"using":"xpath","value":"//form[@id='checkboxes']/input[1]"}
+COMMAND: POST /session/1a4c227c040244649b7fd22da0d9475a/element/A5561F43A081A620306EDCD24878313D_element_6/click - {}
+RESULT: {}
+COMMAND: POST /session/1a4c227c040244649b7fd22da0d9475a/element - {"using":"xpath","value":"//form[@id='checkboxes']/input[2]"}
+RESULT: {"using":"xpath","value":"//form[@id='checkboxes']/input[2]"}
+COMMAND: POST /session/1a4c227c040244649b7fd22da0d9475a/element/A5561F43A081A620306EDCD24878313D_element_8/click - {}
+RESULT: {}
+COMMAND: DELETE /session/1a4c227c040244649b7fd22da0d9475a - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

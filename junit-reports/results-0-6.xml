@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo tests" timestamp="2023-07-14T15:44:09" time="7.896" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo tests"/>
+      <property name="capabilities" value="chrome.114_0_5735_199.windows"/>
+      <property name="file" value="file:///C:/Users/AnnaEichmann/OneDrive%20-%20ASQA%20Software%20Quality%20Assurance/Desktop/WebDriverIO_Project_1/test/specs/test1.spec.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_199.windows.Demo_tests" name="My fisrt test" time="7.896">
+      <system-out><![CDATA[
+COMMAND: POST /session/1cfdd11cfd0fb705decfa9a80cdb2f84/url - {"url":"https://www.google.com/"}
+RESULT: {"url":"https://www.google.com/"}
+COMMAND: POST /session/1cfdd11cfd0fb705decfa9a80cdb2f84/element - {"using":"css selector","value":"[class=\"tHlp8d\"]"}
+RESULT: {"using":"css selector","value":"[class=\"tHlp8d\"]"}
+COMMAND: POST /session/1cfdd11cfd0fb705decfa9a80cdb2f84/element/0B64C45FE4FD4C5AF78E992C1342B719_element_22/click - {}
+RESULT: {}
+COMMAND: POST /session/1cfdd11cfd0fb705decfa9a80cdb2f84/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/1cfdd11cfd0fb705decfa9a80cdb2f84/element/0B64C45FE4FD4C5AF78E992C1342B719_element_23/clear - {}
+RESULT: {}
+COMMAND: POST /session/1cfdd11cfd0fb705decfa9a80cdb2f84/element/0B64C45FE4FD4C5AF78E992C1342B719_element_23/value - {"text":"WebdriverIO"}
+RESULT: {"text":"WebdriverIO"}
+COMMAND: POST /session/1cfdd11cfd0fb705decfa9a80cdb2f84/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/1cfdd11cfd0fb705decfa9a80cdb2f84/actions - {}
+RESULT: {}
+COMMAND: DELETE /session/1cfdd11cfd0fb705decfa9a80cdb2f84 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

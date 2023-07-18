@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My first recorded Test" timestamp="2023-07-14T15:44:05" time="2.228" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My first recorded Test"/>
+      <property name="capabilities" value="chrome.114_0_5735_199.windows"/>
+      <property name="file" value="file:///C:/Users/AnnaEichmann/OneDrive%20-%20ASQA%20Software%20Quality%20Assurance/Desktop/WebDriverIO_Project_1/test/specs/My_first%20_recorded_Test.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_199.windows.My_first_recorded_Test" name="tests My first recorded Test" time="2.228">
+      <system-out><![CDATA[
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/window/rect - {"x":null,"y":null,"width":1207,"height":969}
+RESULT: {"x":null,"y":null,"width":1207,"height":969}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: GET /session/e9d48a84801f03350ff4dc52d0022fb2/url - {}
+RESULT: {}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element - {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[1]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[1]"}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element/443903B5B4D034E08EEFD21262E05806_element_4/click - {}
+RESULT: {}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element/443903B5B4D034E08EEFD21262E05806_element_7/click - {}
+RESULT: {}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element/443903B5B4D034E08EEFD21262E05806_element_7/clear - {}
+RESULT: {}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element/443903B5B4D034E08EEFD21262E05806_element_7/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element - {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[2]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[2]"}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element/443903B5B4D034E08EEFD21262E05806_element_8/click - {}
+RESULT: {}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element/443903B5B4D034E08EEFD21262E05806_element_3/click - {}
+RESULT: {}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element/443903B5B4D034E08EEFD21262E05806_element_3/clear - {}
+RESULT: {}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element/443903B5B4D034E08EEFD21262E05806_element_3/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element - {"using":"css selector","value":"button[type='submit']"}
+RESULT: {"using":"css selector","value":"button[type='submit']"}
+COMMAND: POST /session/e9d48a84801f03350ff4dc52d0022fb2/element/443903B5B4D034E08EEFD21262E05806_element_9/click - {}
+RESULT: {}
+COMMAND: GET /session/e9d48a84801f03350ff4dc52d0022fb2/url - {}
+RESULT: {}
+COMMAND: DELETE /session/e9d48a84801f03350ff4dc52d0022fb2 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

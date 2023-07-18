@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="TK" timestamp="2023-07-14T15:44:05" time="11.49" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="TK"/>
+      <property name="capabilities" value="chrome.114_0_5735_199.windows"/>
+      <property name="file" value="file:///C:/Users/AnnaEichmann/OneDrive%20-%20ASQA%20Software%20Quality%20Assurance/Desktop/WebDriverIO_Project_1/test/specs/TK.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_199.windows.TK" name="tests TK" time="11.49">
+      <failure/>
+      <error message="Can't call click on element with selector &quot;//*[@id=&quot;tkde-footer&quot;]/div[5]/div/div/div[3]/div[2]/div[1]/label&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/window/rect - {"x":null,"y":null,"width":1125,"height":969}
+RESULT: {"x":null,"y":null,"width":1125,"height":969}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/url - {"url":"https://www.tk.de/techniker/jetzt-zur-tk/mitglied-werden-tk-2017032?tkmcg=42443333940_650353306268&tkkwg=e_42443333940_techniker%20krankenkasse&wt_cc1=k[techniker%20krankenkasse]m[e]n[g]c[650353306268]p[]d[c]a[42443333940]t[kwd-296385596362]&gclid=CjwKCAjw-7OlBhB8EiwAnoOEkwV2zDEe6VgnTz4OcqvHiM337P4TjLQ556AsuJY7A9E4Zzjjn92j6RoC-VYQAvD_BwE"}
+RESULT: {"url":"https://www.tk.de/techniker/jetzt-zur-tk/mitglied-werden-tk-2017032?tkmcg=42443333940_650353306268&tkkwg=e_42443333940_techniker%20krankenkasse&wt_cc1=k[techniker%20krankenkasse]m[e]n[g]c[650353306268]p[]d[c]a[42443333940]t[kwd-296385596362]&gclid=CjwKCAjw-7OlBhB8EiwAnoOEkwV2zDEe6VgnTz4OcqvHiM337P4TjLQ556AsuJY7A9E4Zzjjn92j6RoC-VYQAvD_BwE"}
+COMMAND: GET /session/d95641afb3d9959b6160ef43331e2529/url - {}
+RESULT: {}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/element - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: POST /session/d95641afb3d9959b6160ef43331e2529/elements - {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+COMMAND: GET /session/d95641afb3d9959b6160ef43331e2529/screenshot - {}
+RESULT: {"using":"xpath","value":"//*[@id=\"tkde-footer\"]/div[5]/div/div/div[3]/div[2]/div[1]/label"}
+RESULT: {}
+COMMAND: DELETE /session/d95641afb3d9959b6160ef43331e2529 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call click on element with selector "//*[@id="tkde-footer"]/div[5]/div/div/div[3]/div[2]/div[1]/label" because element wasn't found
+    at async Context.<anonymous> (C:\Users\AnnaEichmann\OneDrive - ASQA Software Quality Assurance\Desktop\WebDriverIO_Project_1\test\specs\TK.js:6:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

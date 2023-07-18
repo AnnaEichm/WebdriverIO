@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo Test" timestamp="2023-07-14T15:44:07" time="2.016" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Test"/>
+      <property name="capabilities" value="chrome.114_0_5735_199.windows"/>
+      <property name="file" value="file:///C:/Users/AnnaEichmann/OneDrive%20-%20ASQA%20Software%20Quality%20Assurance/Desktop/WebDriverIO_Project_1/test/specs/login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_199.windows.Demo_Test" name="Login Test" time="2.016">
+      <system-out><![CDATA[
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/element/89979FF0EA5B911DCA24C73CA126037C_element_4/clear - {}
+RESULT: {}
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/element/89979FF0EA5B911DCA24C73CA126037C_element_4/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/element/89979FF0EA5B911DCA24C73CA126037C_element_3/clear - {}
+RESULT: {}
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/element/89979FF0EA5B911DCA24C73CA126037C_element_3/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/element/89979FF0EA5B911DCA24C73CA126037C_element_8/click - {}
+RESULT: {}
+COMMAND: POST /session/dca3394ab86365e2e8ff41fb3e1ba400/element - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: GET /session/dca3394ab86365e2e8ff41fb3e1ba400/element/396EE4211D84677DA483CD95D8757B67_element_11/text - {}
+RESULT: {}
+COMMAND: DELETE /session/dca3394ab86365e2e8ff41fb3e1ba400 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
